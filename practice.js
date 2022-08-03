@@ -105,8 +105,13 @@ var number = numbers.indexOf(15);
 // }
 
 
-var numbers = [12, 32, 21, 32, 34, 123]
+// var numbers = [12, 32, 21, 32, 34, 123]
 
-numbers.shift(9);
+// numbers.shift(9);
 
-console.log(numbers)
+// console.log(numbers)
+
+
+
+
+
