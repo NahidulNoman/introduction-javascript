@@ -51,3 +51,99 @@
 // console.log(sum);
 
 
+// Variable ---------- complete-----
+
+
+// ১৩. Array কি জিনিস। এইটা কিভাবে কাজ করে? কিভাবে Array ডিক্লেয়ার করতে হয়
+
+// var age =[12, 23, 21, 24, 32, 30]
+
+// ১৪. array এর মধ্যে কয়টা উপাদান (element) আছে সেটা কিভাবে বের করে
+
+// console.log(age.length)
+
+// ১৫. array এর উপাদান গুলা এর পজিশন ( index) কিভাবে কাজ করে। কত দিয়ে শুরু হয়। এবং মান কিভাবে চেইঞ্জ হয়।
+
+// var age =[12, 23, 21, 24, 32, 30]
+// console.log(age[2])
+// age[3] = 40;
+// console.log(age) 
+
+// ১৬. কোন একটা উপাদানের index এর মান  -১ বলতে কি বুঝায়
+
+// var ages = age.indexOf(24)
+// console.log(ages)
+
+// ১৭. কিভাবে index দিয়ে কোন একটা array এর মধ্যে উপাদান এর মান খুঁজে বের করতে পারো
+
+// var friends = ['nom', 'kak', 'kea', 'koo']
+
+// var friend = friends.indexOf('koo')
+// console.log(friend)
+
+// ১৮. কিভাবে কোন একটা index পজিশন এ array এর উপাদান এর মান চেইঞ্জ করতে পারবে
+
+// var roll =[34, 32, 33, 12, 21, 65 ]
+// roll [5] = 50;
+// console.log(roll)
+
+// ১৯. একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো?
+
+// var roll =[34, 32, 33, 12, 21, 65 ]
+// var rolled = roll.indexOf(12)
+// console.log(rolled)
+
+// ২০. ধরো, কোন একটা ইনডেক্স দিয়ে উপাদান খুঁজতে গেছো। কিন্তু সেটার মান না দিয়ে তোমাকে undefined দেখাচ্ছে। সেটা দেখে তুমি কি বুঝবে? (একটু গুগলে সার্চ দাও। আমরা কোর্স এ এইটা আলোচনা করিনি। তারপরেও চেষ্টা করে দেখো)
+
+// var roll =[34, 32, 33, 12, 21, 65 ]
+
+// console.log(roll[6])
+
+// ২১. কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে
+
+// var roll =[34, 32, 33, 12, 21, 65 ]
+// roll.push(100)
+// console.log(roll)
+// roll.pop()
+// console.log(roll)
+
+// ২২. কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে
+
+// var roll =[34, 32, 33, 12, 21, 65 ]
+
+// roll.unshift(100)
+// roll.shift()
+// console.log(roll)
+
+// ২৩. তুলনা কিভাবে করতে হয়। এইগুলার মানে কি:  >, <, ==, !=, <=, >=, ===, !==, &&, ।।
+
+
+// ২৪. তোমার কাছে:  ৮০০০০ টাকার বেশি হলে তুমি mac কিনবে, ৬০ টাকার বেশি হলে gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
+
+// var yourMoney = 20000;
+
+// if(yourMoney > 80000){
+//     console.log('tumi mac kinte parba')
+// }
+// else  if(yourMoney > 60000 ){
+//     console.log('tumi ekta gaming laptop kinte paro')
+// }
+// else if(yourMoney > 40000 ){
+//     console.log('tumi lenovo giga computer kinte paro')
+// }
+// else if( yourMoney > 20000){
+//     console.log('tumi ekta puran laptop kinte paro')
+// }
+// else{
+//     console.log('mobile diya kaj chalao')
+// }
+
+
+// -------------------loop--------------
+
+// ২৫. আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট  হিসেবে দেখাও।
+
+var sentence = ['Today i am not fine.']
+
+
+
