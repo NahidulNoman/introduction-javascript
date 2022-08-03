@@ -143,7 +143,80 @@
 
 // ২৫. আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট  হিসেবে দেখাও।
 
-var sentence = ['Today i am not fine.']
+
+// var roll = 1
+// while(roll <= 39){
+//     console.log('Today i am not fine.$');
+//     roll ++
+// }
+
+// for(var i = 1; i <= 39; i++){
+//     console.log('Today i am not fine')
+// }
+
+// ২৬. while লুপ কিভাবে কাজ করে
+
+// ২৭. for লুপ কিভাবে কাজ করে
+
+// ২৮. while লুপ এর মধ্যে লুপ ভেরিয়েবল চেইঞ্জ না করলে কি সমস্যা হয়।
+
+// ২৯. একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও
+
+// var serial = 58;
+// while(serial <= 98){
+//     console.log(serial)
+//     serial++;
+// }
+
+// for( i = 58; i <=98; i++){
+//     console.log(i)
+// }
+
+// ৩০.একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও 
+
+// var number = 412;
+// while(number <= 456){
+//     console.log(number)
+//     number= number +2
+// }
+
+// for(i = 412; i <=456; i=i+2){
+//     console.log(i)
+// }
+
+// ৩১. একটা কোড লিখে ৫৮১ থেকে ৬২৩ পর্যন্ত যত বিজোড় সংখ্যা আছে সেগুলাকে দেখাও
+
+// var numbers = 581;
+// while(numbers <= 623){
+//     console.log(numbers)
+//     numbers = numbers+2
+// }
+
+// ৩২.while আর for loop এর মধ্যে পার্থক্য কি
+
+// ৩৩ তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও।
+
+// var thoseIlearn = ['variable', 'array', 'condition', 'loop', 'if', 'else']
+
+// for(i = 0; i < thoseIlearn.length; i++){
+//     var learn = thoseIlearn[i];
+//     console.log(learn)
+// } 
+
+// ৩৪. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও
+
+var usePhone = [ 'Alketel-one-tuch', 'Xiaomi-4X', 'Xiaomi-redmi-note', 'Nokia', 'Vivo' ]
+while(i < usePhone.length ){
+    var phone = usePhone[i]
+    console.log(phone)
+    usePhone++;
+}
+
+
+// ৩৫. একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও
+
+
+// ৩৬. তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা।
 
 
 
