@@ -27,6 +27,26 @@ var mobile = {
 // console.log(smartphone.brand)
 
 
+// var computer={
+//     monitor : 'hp++',
+//     price : '30k',
+//     keyboard: 'logitech',
+//     mouse: 5,
+//     ups: 'digitalX',
+//     box:'vKer'
+// }
+// computer.keyboard= 'aFourTack'
+// var cost = computer['price']
+// console.log(cost)
+// var properties = Object.keys(computer)
+// console.log(properties)
+// var values = Object.values(computer)
+// console.log(values)
+
+// var propertyName = 'mouse'
+// var propertyValue = computer[propertyName]
+// console.log(propertyName,propertyValue)
+
 var computer={
     monitor : 'hp++',
     price : '30k',
@@ -35,18 +55,13 @@ var computer={
     ups: 'digitalX',
     box:'vKer'
 }
-computer.keyboard= 'aFourTack'
-var cost = computer['price']
-// console.log(cost)
-var properties = Object.keys(computer)
-// console.log(properties)
-var values = Object.values(computer)
-// console.log(values)
+const keys = Object.keys(computer)
+console.log(keys)
+const values = Object.values(computer)
+console.log(values)
 
-var propertyName = 'mouse'
-var propertyValue = computer[propertyName]
-// console.log(propertyName,propertyValue)
+// [ 'monitor', 'price', 'keyboard', 'mouse', 'ups', 'box' ]
 
-
-
-
+for(i=0; i< keys.length; i++){
+    console.log(keys[i],values[i])
+}
