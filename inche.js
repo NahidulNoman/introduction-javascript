@@ -29,11 +29,30 @@
 
 // problem-4
 
-function minToHour(min){
-    let minute = min / 60;
-    return minute;
-}
-const minutes = 520;
-const totalMinutes = minToHour(minutes);
-console.log('Total Minutes',totalMinutes)
+// function minToHour(min){
+//     let minute = min / 60;
+//     return minute;
+// }
+// const minutes = 520;
+// const totalMinutes = minToHour(minutes);
+// console.log('Total Minutes',totalMinutes)
 
+// problem-5
+
+// function kgToGram(gram){
+//     let result = gram / 1000;
+//     return result;
+// }
+// let enterGram = 1700;
+// let totalGram = kgToGram(enterGram);
+// console.log(totalGram)
+
+//problem-6
+
+// function gramToKg(kg){
+//     const gram = kg * 1000;
+//     return gram;
+// }
+// const enterKg = 0.3;
+// const totalkg = gramToKg(enterKg);
+// console.log(totalkg)
