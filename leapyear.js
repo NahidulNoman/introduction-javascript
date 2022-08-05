@@ -12,15 +12,17 @@
 // let confirm =isLeapYear(theYear);
 // console.log(confirm);
 
-function leapYear(year){
-    let whichyear = year % 400;
-    if(whichyear === 0){
-        return true;
+function checkLeapYear(year){
+    let year1 = year % 4;
+    let year2 = year % 100;
+    let year3 = year % 400;
+    if( (year1 == 0 && year2 !== 0) || year3 == 0){
+        return 'Yes!! This is leap year'
     }
     else{
-        return false;
+        return 'Oops!! it not leap year'
     }
 }
-let theYear = 2020;
-let confirmYear = leapYear(theYear);
-console.log(confirmYear)
+let enterYear = 2019;
+let finalResult = checkLeapYear(enterYear);
+console.log(finalResult)
