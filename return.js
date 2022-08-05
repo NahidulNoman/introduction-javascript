@@ -28,6 +28,7 @@
 //     return sum;
 
 // }
+
 // var result1=add(20,10);
 // var result2=add(50,10)
 // var finalResult =add(result1,result2)

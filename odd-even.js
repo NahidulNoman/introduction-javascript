@@ -17,4 +17,4 @@ for(var i=0; i<marks.length; i++){
         continue;
     }
     console.log(marks[i]);
-};
+}

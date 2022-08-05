@@ -29,7 +29,6 @@ function more(money1,money2){
     var sum = money1+money2;
    console.log(sum)
 }
-
 more(100,30)
 
 
