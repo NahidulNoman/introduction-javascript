@@ -70,7 +70,7 @@
 
 // function upCase(alphabet){
 //     let doWord = alphabet;
-//     return doWord .toLowerCase();
+//     return doWord.toLowerCase();
 // }
 // let word = 'HELLO JAVASCRIPT.'
 // let getWord = upCase(word)
@@ -91,8 +91,8 @@
 //  অর্থাৎ তুমি ইনপুট হিসেবে 5 দিলে সেটাতে স্কয়ারে হিসেবে 25 আউটপুট হিসেবে পাবে। 
 
 // function dubbel(number){
-//     let coundt = number * number;
-//     return coundt;
+//     let count = Math.pow(number,2);
+//     return count;
 // }
 // let putIn = 100;
 // let getResult = dubbel(putIn);
@@ -108,3 +108,81 @@
 //  console.log(pizza.toppings[2]);
 
 
+//module-20.5//
+
+
+// ১. তোমাকে ফাংশনের ইনপুট হিসেবে সেলসিয়াস দিবে। তুমি ক্যালকুলেশন করে তাপমাত্রা ফারেনহাইট এ কনভার্ট করে সেটার আউটপুট রিটার্ন করবে 
+
+// way to get celsius:
+
+// function fahrenToCelsi(celsi){
+//     let fahren = (celsi * 9/5) +32;
+//     return fahren; 
+// }
+// let addTempareture = 10;
+// let getTempareture = fahrenToCelsi(addTempareture);
+// console.log(getTempareture);
+
+//way to get Fahrenheit:
+
+// function celsiToFahren(fahren){
+//     let celsi = (fahren - 32) *(5/9);
+//     return celsi;
+// }
+// let addTem = 50;
+// let finalTem = celsiToFahren(addTem);
+// console.log(finalTem);
+
+//৩. কেউ ১০০ এর মধ্যে কত মার্ক্স্ পেয়েছে সেটা তোমাকে বলে দিবে। তুমি একটা ফাংশন দিয়ে বলে দিবে সে এ+ পাবে নাকি অন্য কোন গ্রেড পাবে। 
+
+// function yourResult(number){
+//     if(number >= 80 && number <= 100 ){
+//         console.log('Yesss!! you got A+')
+//     }
+//     else if (number >= 70 && number < 80){
+//         console.log('Yeppp!! you got A')
+//     }
+//     else if (number >= 60 && number < 70){
+//         console.log('you got A-')
+//     }
+//     else if (number >= 50 && number < 60){
+//         console.log('you got B')
+//     }
+//     else if (number >= 40 && number <50){
+//         console.log('you got C')
+//     }
+//     else if ( number >= 33 && number <= 39){
+//         console.log('you got D')
+//     }
+//     else{
+//         console.log('you failed try next time...')
+//     }
+// }
+// let enterYourMarks =39;
+// let getResult = yourResult(enterYourMarks);
+
+//Calculate compound interest using function in JavaScript:
+
+// function calculateInterest(p, t, r, n){
+//     let interestTime = t * n;
+//     let rateTime = 1 + (r / n);
+//     let principalAmount = interestTime * rateTime;
+//     let amount = principalAmount * p;
+//     let interest = amount - p;
+//     return interest;
+// }
+
+
+// function calculateInterest(p, t, r, n){
+//     let amount = p * (Math.pow((1 + (r / n)), (n * t)));
+//     let interest = amount - p;
+//     return interest;
+// }
+
+
+// let principal = 2000;
+// let rate = .08;
+// let time = 5;
+// let n = 12;
+// const getInterest = calculateInterest(principal,time,rate,n);
+// console.log(getInterest);
