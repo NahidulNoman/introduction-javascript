@@ -1,4 +1,4 @@
-//  problem
+//  problem-1
 
 // var mathMarks = 75.25;
 // var biologyMarks = 65;
@@ -12,15 +12,10 @@
 // var averageMarks = parseFloat(averageMarks)
 // console.log(averageMarks)
 
-//    problem--
+//    problem--2
 
-// var tom = 66;    var gradeB = 60;
-// var jane = 95;   var gradeC = 50;
-// var peter = 56;   var gradeD = 40;
-// var john = 40;    var gradeF = 39;
+// var mark = 54; 
 
-
-// var mark = 14; 
 // if(mark >= 80 && mark <= 100 ){
 //     console.log('you got A+');
 // }
@@ -40,7 +35,7 @@
 //     console.log('you fail try next time...')
 // }
 
-//   problem
+//   problem-3
 
 // var numbers =28;
 // numbers += 10;
@@ -49,10 +44,12 @@
 //  var result = parseFloat(gpa)
 //  console.log(result)
 
+//problem-4
 
 // var friends = true;
 // console.log(typeof friends)
 
+//problem-5
 
 // var num1 = 0.1;
 // var num2 = 0.2;
@@ -61,13 +58,14 @@
 // sum = parseFloat(sum);
 // console.log(sum)
 
+//problem-6
 
-var numbers = [12, 34, 56, 87, 98, 25]
+// var numbers = [12, 34, 56, 87, 98, 25]
 // console.log(numbers.length)
 // console.log(numbers[3])
-numbers[0] = 15;
+// numbers[0] = 15;
 // console.log(numbers)
-var number = numbers.indexOf(15);
+// var number = numbers.indexOf(15);
 // console.log(number)
 // numbers.push(20);
 // numbers.push(21);
@@ -78,6 +76,7 @@ var number = numbers.indexOf(15);
 // console.log(num);
 // console.log(num1)
 
+//problem-7
 
 // var num = 50;
 // while(num >= 39){
@@ -85,10 +84,13 @@ var number = numbers.indexOf(15);
 //     num--;
 // }
 
+//problem-8
+
 // for(var i = 470; i >= 460; i--){
 //     console.log(i)
 // }
 
+//problem-9
 
 // var numbers = [12, 32, 21, 32, 34, 123]
 
@@ -104,11 +106,10 @@ var number = numbers.indexOf(15);
 //     }
 // }
 
+//problem-10
 
 // var numbers = [12, 32, 21, 32, 34, 123]
-
 // numbers.shift(9);
-
 // console.log(numbers)
 
 

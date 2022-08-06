@@ -6,8 +6,8 @@ var oneParson =singer['2']
 // numbers[2]= 70;
 // console.log(numbers)
 
-
 // practice problem-1
+
 var fruits = ['Apple', 'Banana', 'Orange'];
 
 var food = fruits[1];
