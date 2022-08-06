@@ -16,17 +16,35 @@
 
 //problem-2
 
-function sumArray(number){
-    let sum = 0;
-    for(var i = 0; i < number.length; i++ ){
-        let index = i;
-        let element = number[index];
-        sum +=2;
-        console.log(element, index)
-    }
-    return sum;
+// function sumArray(number){
+//     let sum = 0;
+//     for(var i = 0; i < number.length; i++ ){
+//         let index = i;
+//         let element = number[index];
+//         sum += element;
+//         console.log(element, index, sum)
+//     }
+//     return sum;
 
-}
-let myArray = [23, 43, 21, 4, 6, 47, 9, 8];
-let myAllNum = sumArray(myArray)
-console.log(myAllNum)
+// }
+// let myArray = [23, 43, 21, 44, 66, 47, 19, 18];
+// let myAllNum = sumArray(myArray)
+// console.log(myAllNum)
+
+//problem-3
+
+// function finalArray(arr){
+//     let sum =0;
+//     for(let i = 0; i < arr.length; i++ ){
+//         let index = i;
+//         let element = arr[index];
+//         sum =sum +element;
+//         console.log(index,element,sum)
+//     }
+//     return sum;
+// }
+// let thisArray = [11,22,33,44,55,66,77,88,99]
+// let calArray = finalArray(thisArray);
+// console.log(calArray)
+
+
