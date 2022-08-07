@@ -44,20 +44,20 @@
 
 //problem-4
 
-// function finalArray(arr){
-//     var oddNumber = []
-//     for(let i = 0; i < arr.length; i++ ){
-//         let index = i;
-//         let element = arr[index];
-//         if(element % 2 !== 0){
-//             console.log(index,element);
-//             oddNumber.push(element);
-//         }   
-//     }
-//     return oddNumber;   
-// }
-// let thisArray = [11,22,33,44,55,66,77,88,99];
-// let calArray = finalArray(thisArray);
-// console.log(calArray);
+function finalArray(arr){
+    var oddNumber = []
+    for(let i = 0; i < arr.length; i++ ){
+        let index = i;
+        let element = arr[index];
+        if(element % 2 !== 0){
+            console.log(index,element);
+            oddNumber.push(element);
+        }   
+    }
+    return oddNumber;   
+}
+let thisArray = [11,22,33,44,55,66,77,88,99];
+let calArray = finalArray(thisArray);
+console.log(calArray);
 
 

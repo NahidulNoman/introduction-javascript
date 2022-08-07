@@ -22,12 +22,26 @@ function sumArray(number){
         let index = i;
         let element = number[index];
         sum += element;
-        console.log(element, index, sum)
+        // console.log(element, index, sum)
     }
     return sum;
 }
+
+function finalArray(arr){
+    var oddNumber = []
+    for(let i = 0; i < arr.length; i++ ){
+        let index = i;
+        let element = arr[index];
+        if(element % 2 !== 0){
+            console.log(index,element);
+            oddNumber.push(element);
+        }   
+    }
+    return oddNumber;   
+}
+
 let myArray = [23, 43, 21, 44, 66, 47, 19, 18];
-let myAllNum = sumArray(myArray);
+let myAllNum = finalArray(myArray);
 console.log(myAllNum)
 
 //problem-3
