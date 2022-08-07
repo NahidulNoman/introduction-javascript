@@ -186,3 +186,4 @@
 // let n = 12;
 // const getInterest = calculateInterest(principal,time,rate,n);
 // console.log(getInterest);
+

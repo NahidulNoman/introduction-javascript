@@ -15,7 +15,7 @@
 //     let result = 1;
 //     for(var i = number; i >= 1 ; i--){
 //         result = result * i;
-//         // console.log(i)
+        // console.log(i)
 //     }
 //     return result ;
 // }
