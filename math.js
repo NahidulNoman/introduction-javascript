@@ -41,4 +41,4 @@ var unique4 = Math.random()*10
 for(i= 0; i<20; i++){
     var unique2 = Math.round(Math.random()*10);
     console.log(unique2);
-}
+} 
