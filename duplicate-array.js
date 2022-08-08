@@ -8,8 +8,6 @@ function nameArray(names){
     }
     return uniqueNames;
 }
-
-
 let thisNames = ['chink','mink','fink','mink','chink','fink','chink','mink','fink','kal','kal','kal', 'fink'];
 let getNames = nameArray(thisNames)
 console.log(getNames);
