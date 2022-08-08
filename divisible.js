@@ -5,3 +5,18 @@
 4. if the number is divisible by both 3 and 5 then instead of the number show 'foobar'
 */
 
+for(i = 1; i <= 50; i++){
+    if (i % 5 === 0 && i % 3 ===0){
+        console.log('foobar')
+    }
+    else if (i % 5 === 0){
+        console.log('bar')
+    }
+    else if(i % 3 === 0){
+        console.log('foo')
+    }
+    
+    else{
+        console.log(i)
+    }
+}
