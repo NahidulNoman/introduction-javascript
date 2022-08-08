@@ -187,3 +187,32 @@
 // const getInterest = calculateInterest(principal,time,rate,n);
 // console.log(getInterest);
 
+
+// module-21----
+
+
+// ১. একটা কোড লিখো। যেটা দিয়ে কোন একটা array এর মধ্যে সবচেয়ে ছোট সংখ্যা বের করে দিতে পারবে।
+
+// let number = [44, 55, 45, 65, 34, 98, 78, 99, 87, 2];
+// let minimun = Math.min.apply(null,number)
+// console.log(minimun)
+
+// ২. একটা কোড লিখো যেটা দিয়ে তিনটা সংখ্যার মধ্যে সবচেয়ে ছোট সংখ্যা বের করে দিবে।
+
+// console.log(Math.min(7,8,9,6,2,5));
+
+// ৩. একটা ফাংশন লিখো। সেই ফাংশনের মধ্যে ইনপুট হিসেবে একটা array নিবে। সেই array এর মধ্যে অনেকগুলা সংখ্যা থাকবে। তোমার কাজ হবে ইনপুট নেয়া array এর মধ্যে যতগুলা সংখ্যা আছে। সেই সংখ্যা গুলার গড় বের করবে। তারপর সেই গড় ফাংশনের রিটার্ন হিসেবে দিয়ে দিবে। একটু চিন্তা করো। বুঝার চেষ্টা করো। ট্রাই করো। দেখো পারো কিনা। 
+
+function averArray(number){
+    let sum = 0;
+    for(i = 0; i <number.length; i++){
+        let index = number[i];
+        if(index < sum){
+            index = sum
+        }
+      }
+      return sum;
+}
+let thisArray = [12,23,32,15,20]
+let getResult = averArray(thisArray);
+console.log(getResult);

@@ -14,4 +14,3 @@ let second = 9;
 console.log(first, second)
 
 // three way
-

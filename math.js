@@ -32,7 +32,7 @@
 // var unique3 = Math.floor(number)
 // console.log(unique3);
 
-// random
+// random 
 
 // var unique4 = Math.random()*10
 // console.log(unique4);

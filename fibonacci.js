@@ -4,4 +4,4 @@
  for(let i = 2; i <= 15; i ++){
     fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
  }
- console.log(fibonacci)
+ console.log(fibonacci) 

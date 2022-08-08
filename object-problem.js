@@ -58,7 +58,6 @@ function totalCost(products){
     }
     return sum;
 }
-
 const shoppingCart = [
     { name: 'shoe', price: 1200 , quantity: 2},
     { name: 'shirt', price: 2200, quantity: 7 },

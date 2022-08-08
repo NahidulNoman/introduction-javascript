@@ -39,7 +39,6 @@ function ticketPrice(ticket){
         
         return ticketCost;
     }
-
 }
 let ticketValue = ticketPrice(120);
 console.log('Your total ticket price : ', ticketValue);
