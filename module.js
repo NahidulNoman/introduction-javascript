@@ -203,16 +203,32 @@
 
 // ৩. একটা ফাংশন লিখো। সেই ফাংশনের মধ্যে ইনপুট হিসেবে একটা array নিবে। সেই array এর মধ্যে অনেকগুলা সংখ্যা থাকবে। তোমার কাজ হবে ইনপুট নেয়া array এর মধ্যে যতগুলা সংখ্যা আছে। সেই সংখ্যা গুলার গড় বের করবে। তারপর সেই গড় ফাংশনের রিটার্ন হিসেবে দিয়ে দিবে। একটু চিন্তা করো। বুঝার চেষ্টা করো। ট্রাই করো। দেখো পারো কিনা। 
 
-function averArray(number){
-    let sum = 0;
-    for(i = 0; i <number.length; i++){
-        let index = number[i];
-        if(index < sum){
-            index = sum
-        }
-      }
-      return sum;
-}
-let thisArray = [12,23,32,15,20]
-let getResult = averArray(thisArray);
-console.log(getResult);
+// function averArray(number){
+//      let sum = 0;
+//     for(i = 0; i < number.length; i++){
+//         let index = number[i];
+//         sum = sum + index / number.length ;
+//       }
+//     return sum;
+// }
+// let thisArray = [2,3,2,1,2]
+// let getResult = averArray(thisArray);
+// console.log(getResult);
+
+
+// ৪. একটা ফাংশন লিখো। যেটা ইনপুট প্যারামিটার হিসেবে একটা আয়তক্ষেত্রের দৈর্ঘ্য আর উচ্চতাকে নিবে। তারপর সেই আয়তক্ষেত্র এর area (আয়তন) কে রেজাল্ট হিসেবে রিটার্ন করবে।
+
+
+// function areaArray(length,height){
+//         let volumeArea = length * height 
+//         return volumeArea;
+// }
+// let thisLength = 20;
+// let thisHeight = 10;
+// let getArea = areaArray(thisLength,thisHeight);
+// console.log(getArea);
+
+
+// ৫. (ট্রিকি) কোন একটা array এর মধ্যে অনেকগুলা সংখ্যা আছে। সেই সংখ্যাগুলো থেকে second largest সংখ্যা বের করার একটা প্রোগ্রাম লিখো। দরকার হলে গুগলে সার্চ দাও। তারপর সার্চ রেজাল্ট দেখে বুঝে বুঝে করার চেষ্টা করো। 
+
+
